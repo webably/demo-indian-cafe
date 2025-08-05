@@ -229,7 +229,7 @@ export default function Index() {
           </div>
           
           <div className="text-center mt-12">
-            <Button onClick={() => alert('🍽️ Complete menu coming soon! Call us at (555) 123-CHAI for our full range of Indian delicacies.')} size="lg" variant="outline">
+            <Button onClick={() => alert('🍽️ Complete menu coming soon! Call us at +91 11 2345-CHAI for our full range of Indian delicacies.')} size="lg" variant="outline">
               View Full Menu
             </Button>
           </div>
@@ -280,7 +280,7 @@ export default function Index() {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-2">Contact</h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>(555) 123-CHAI</p>
+                    <p>+91 11 2345-CHAI</p>
                     <p>namaste@chaykafi.cafe</p>
                   </div>
                 </div>
@@ -359,7 +359,7 @@ export default function Index() {
                 <p><button onClick={() => scrollToSection('menu')} className="hover:text-primary transition-colors">Menu</button></p>
                 <p><button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About Us</button></p>
                 <p><button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">Contact</button></p>
-                <p><button onClick={() => alert('📞 Call us at (555) 123-CHAI for catering and special event inquiries!')} className="hover:text-primary transition-colors">Catering</button></p>
+                <p><button onClick={() => alert('📞 Call us at +91 11 2345-CHAI for catering and special event inquiries!')} className="hover:text-primary transition-colors">Catering</button></p>
               </div>
             </div>
             
