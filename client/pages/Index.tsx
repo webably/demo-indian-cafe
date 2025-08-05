@@ -343,10 +343,10 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <div className="space-y-2 text-background/80">
-                <p><a href="#menu" className="hover:text-primary transition-colors">Menu</a></p>
-                <p><a href="#about" className="hover:text-primary transition-colors">About Us</a></p>
-                <p><a href="#contact" className="hover:text-primary transition-colors">Contact</a></p>
-                <p><a href="#" className="hover:text-primary transition-colors">Catering</a></p>
+                <p><button onClick={() => scrollToSection('menu')} className="hover:text-primary transition-colors">Menu</button></p>
+                <p><button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About Us</button></p>
+                <p><button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">Contact</button></p>
+                <p><button onClick={() => alert('📞 Call us at (555) 123-BREW for catering inquiries!')} className="hover:text-primary transition-colors">Catering</button></p>
               </div>
             </div>
             
