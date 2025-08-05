@@ -45,44 +45,65 @@ export default function Index() {
   };
   const menuItems = [
     {
-      name: "Masala Chai",
-      price: "₹45",
-      description: "Traditional spiced tea brewed with cardamom, ginger, cloves, and fresh milk",
-      badge: "Popular",
-      image: "https://images.pexels.com/photos/16329380/pexels-photo-16329380.jpeg"
-    },
-    {
-      name: "Filter Coffee",
-      price: "₹50",
-      description: "Authentic South Indian coffee made with dark roasted beans and served in traditional tumbler",
-      badge: "Signature",
-      image: "https://images.pexels.com/photos/5528835/pexels-photo-5528835.jpeg"
-    },
-    {
-      name: "Crispy Samosas",
+      name: "Classic Espresso",
       price: "₹80",
-      description: "Golden-fried pastry triangles stuffed with spiced potatoes and green peas",
-      badge: "Fresh",
-      image: "https://images.pexels.com/photos/8992923/pexels-photo-8992923.jpeg"
+      description: "Rich, concentrated coffee shot with perfect crema, made from premium Arabica beans",
+      badge: "Signature",
+      image: "https://images.pexels.com/photos/33280307/pexels-photo-33280307.jpeg"
     },
     {
-      name: "Mini Thali",
-      price: "₹250",
-      description: "Complete meal with dal, sabzi, rice, roti, pickle, and sweet",
-      image: "https://images.pexels.com/photos/18698233/pexels-photo-18698233.jpeg"
-    },
-    {
-      name: "Gulab Jamun",
-      price: "₹60",
-      description: "Soft, spongy milk dumplings soaked in cardamom-scented sugar syrup",
-      badge: "Sweet",
-      image: "https://images.pexels.com/photos/9951856/pexels-photo-9951856.jpeg"
-    },
-    {
-      name: "Mixed Pakoras",
+      name: "Cappuccino",
       price: "₹120",
-      description: "Assorted vegetable fritters served hot with mint and tamarind chutneys",
-      image: "https://images.pexels.com/photos/19083589/pexels-photo-19083589.jpeg"
+      description: "Perfect blend of espresso, steamed milk, and velvety foam with beautiful latte art",
+      badge: "Popular",
+      image: "https://images.pexels.com/photos/5151354/pexels-photo-5151354.jpeg"
+    },
+    {
+      name: "Caffe Latte",
+      price: "₹110",
+      description: "Smooth espresso with steamed milk, topped with artistic foam designs",
+      badge: "Barista's Choice",
+      image: "https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg"
+    },
+    {
+      name: "Earl Grey Tea",
+      price: "₹70",
+      description: "Premium black tea infused with bergamot oil, served with honey and lemon",
+      image: "https://images.pexels.com/photos/14820984/pexels-photo-14820984.jpeg"
+    },
+    {
+      name: "Matcha Green Tea",
+      price: "₹150",
+      description: "Ceremonial grade Japanese matcha powder whisked to perfection, rich in antioxidants",
+      badge: "Premium",
+      image: "https://images.pexels.com/photos/8951881/pexels-photo-8951881.jpeg"
+    },
+    {
+      name: "Iced Cold Brew",
+      price: "₹130",
+      description: "Smooth, refreshing cold-brewed coffee served over ice with optional cream",
+      badge: "Refreshing",
+      image: "https://images.pexels.com/photos/28944485/pexels-photo-28944485.jpeg"
+    },
+    {
+      name: "Cafe Mocha",
+      price: "₹140",
+      description: "Decadent blend of espresso, chocolate, and steamed milk topped with whipped cream",
+      badge: "Indulgent",
+      image: "https://images.pexels.com/photos/17558645/pexels-photo-17558645.jpeg"
+    },
+    {
+      name: "Spiced Chai Latte",
+      price: "₹90",
+      description: "Traditional Indian spices blended with steamed milk for a comforting, aromatic experience",
+      badge: "Traditional",
+      image: "https://images.pexels.com/photos/9228428/pexels-photo-9228428.jpeg"
+    },
+    {
+      name: "Americano",
+      price: "₹85",
+      description: "Pure espresso shots diluted with hot water for a clean, bold coffee flavor",
+      image: "https://images.pexels.com/photos/32103303/pexels-photo-32103303.jpeg"
     }
   ];
 
