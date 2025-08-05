@@ -48,35 +48,41 @@ export default function Index() {
       name: "Artisan Espresso",
       price: "$4.50",
       description: "Rich, bold espresso made from single-origin Ethiopian beans",
-      badge: "Popular"
+      badge: "Popular",
+      image: "https://images.pexels.com/photos/33280307/pexels-photo-33280307.jpeg"
     },
     {
       name: "Lavender Honey Latte",
       price: "$5.75",
       description: "Creamy latte infused with organic lavender and local honey",
-      badge: "Signature"
+      badge: "Signature",
+      image: "https://images.pexels.com/photos/5151354/pexels-photo-5151354.jpeg"
     },
     {
       name: "Avocado Toast Supreme",
       price: "$12.00",
       description: "Fresh avocado, heirloom tomatoes, feta, on sourdough",
-      badge: "Fresh"
+      badge: "Fresh",
+      image: "https://images.pexels.com/photos/6327126/pexels-photo-6327126.jpeg"
     },
     {
       name: "Chocolate Croissant",
       price: "$3.50",
-      description: "Buttery, flaky pastry filled with rich Belgian chocolate"
+      description: "Buttery, flaky pastry filled with rich Belgian chocolate",
+      image: "https://images.pexels.com/photos/3892468/pexels-photo-3892468.jpeg"
     },
     {
       name: "Cold Brew Float",
       price: "$6.25",
       description: "House cold brew topped with vanilla bean ice cream",
-      badge: "Seasonal"
+      badge: "Seasonal",
+      image: "https://images.pexels.com/photos/2813280/pexels-photo-2813280.jpeg"
     },
     {
       name: "Quinoa Power Bowl",
       price: "$14.00",
-      description: "Quinoa, roasted vegetables, chickpeas, tahini dressing"
+      description: "Quinoa, roasted vegetables, chickpeas, tahini dressing",
+      image: "https://images.pexels.com/photos/17559226/pexels-photo-17559226.jpeg"
     }
   ];
 
