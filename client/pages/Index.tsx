@@ -276,33 +276,42 @@ export default function Index() {
             
             <Card className="p-8">
               <h3 className="font-semibold text-xl text-foreground mb-6">Get In Touch</h3>
-              <div className="space-y-4">
+              <form onSubmit={handleFormSubmit} className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">Name</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleInputChange}
                     className="w-full px-3 py-2 border border-input rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-ring"
                     placeholder="Your name"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">Email</label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleInputChange}
                     className="w-full px-3 py-2 border border-input rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-ring"
                     placeholder="your@email.com"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">Message</label>
-                  <textarea 
+                  <textarea
                     rows={4}
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
                     className="w-full px-3 py-2 border border-input rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-ring resize-none"
                     placeholder="Tell us how we can help..."
                   />
                 </div>
-                <Button className="w-full">Send Message</Button>
-              </div>
+                <Button type="submit" className="w-full">Send Message</Button>
+              </form>
             </Card>
           </div>
         </div>
