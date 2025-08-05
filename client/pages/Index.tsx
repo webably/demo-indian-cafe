@@ -45,44 +45,44 @@ export default function Index() {
   };
   const menuItems = [
     {
-      name: "Artisan Espresso",
-      price: "$4.50",
-      description: "Rich, bold espresso made from single-origin Ethiopian beans",
+      name: "Masala Chai",
+      price: "₹45",
+      description: "Traditional spiced tea brewed with cardamom, ginger, cloves, and fresh milk",
       badge: "Popular",
-      image: "https://images.pexels.com/photos/33280307/pexels-photo-33280307.jpeg"
+      image: "https://images.pexels.com/photos/16329380/pexels-photo-16329380.jpeg"
     },
     {
-      name: "Lavender Honey Latte",
-      price: "$5.75",
-      description: "Creamy latte infused with organic lavender and local honey",
+      name: "Filter Coffee",
+      price: "₹50",
+      description: "Authentic South Indian coffee made with dark roasted beans and served in traditional tumbler",
       badge: "Signature",
-      image: "https://images.pexels.com/photos/5151354/pexels-photo-5151354.jpeg"
+      image: "https://images.pexels.com/photos/5528835/pexels-photo-5528835.jpeg"
     },
     {
-      name: "Avocado Toast Supreme",
-      price: "$12.00",
-      description: "Fresh avocado, heirloom tomatoes, feta, on sourdough",
+      name: "Crispy Samosas",
+      price: "₹80",
+      description: "Golden-fried pastry triangles stuffed with spiced potatoes and green peas",
       badge: "Fresh",
-      image: "https://images.pexels.com/photos/6327126/pexels-photo-6327126.jpeg"
+      image: "https://images.pexels.com/photos/8992923/pexels-photo-8992923.jpeg"
     },
     {
-      name: "Chocolate Croissant",
-      price: "$3.50",
-      description: "Buttery, flaky pastry filled with rich Belgian chocolate",
-      image: "https://images.pexels.com/photos/3892468/pexels-photo-3892468.jpeg"
+      name: "Mini Thali",
+      price: "₹250",
+      description: "Complete meal with dal, sabzi, rice, roti, pickle, and sweet",
+      image: "https://images.pexels.com/photos/18698233/pexels-photo-18698233.jpeg"
     },
     {
-      name: "Cold Brew Float",
-      price: "$6.25",
-      description: "House cold brew topped with vanilla bean ice cream",
-      badge: "Seasonal",
-      image: "https://images.pexels.com/photos/2813280/pexels-photo-2813280.jpeg"
+      name: "Gulab Jamun",
+      price: "₹60",
+      description: "Soft, spongy milk dumplings soaked in cardamom-scented sugar syrup",
+      badge: "Sweet",
+      image: "https://images.pexels.com/photos/9951856/pexels-photo-9951856.jpeg"
     },
     {
-      name: "Quinoa Power Bowl",
-      price: "$14.00",
-      description: "Quinoa, roasted vegetables, chickpeas, tahini dressing",
-      image: "https://images.pexels.com/photos/17559226/pexels-photo-17559226.jpeg"
+      name: "Mixed Pakoras",
+      price: "₹120",
+      description: "Assorted vegetable fritters served hot with mint and tamarind chutneys",
+      image: "https://images.pexels.com/photos/19083589/pexels-photo-19083589.jpeg"
     }
   ];
 
@@ -256,9 +256,9 @@ export default function Index() {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-2">Location</h3>
                   <p className="text-muted-foreground">
-                    123 Coffee Street<br />
-                    Downtown District<br />
-                    New York, NY 10001
+                    45 MG Road<br />
+                    Connaught Place<br />
+                    New Delhi, 110001
                   </p>
                 </div>
               </div>
@@ -366,9 +366,9 @@ export default function Index() {
             <div>
               <h4 className="font-semibold mb-4">Info</h4>
               <div className="space-y-2 text-background/80">
-                <p>123 Coffee Street</p>
-                <p>New York, NY 10001</p>
-                <p>(555) 123-CHAI</p>
+                <p>45 MG Road</p>
+                <p>New Delhi, 110001</p>
+                <p>+91 11 2345-CHAI</p>
                 <p>namaste@chaykafi.cafe</p>
               </div>
             </div>
