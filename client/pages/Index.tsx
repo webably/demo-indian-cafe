@@ -2,8 +2,47 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Clock, Phone, Mail, Coffee, Star } from "lucide-react";
+import { useState } from "react";
 
 export default function Index() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleOrderOnline = () => {
+    // In a real app, this would redirect to an ordering system
+    alert('🚀 Redirecting to online ordering system...');
+  };
+
+  const handleFormSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!formData.name || !formData.email || !formData.message) {
+      alert('Please fill in all fields');
+      return;
+    }
+    alert(`Thank you ${formData.name}! We'll get back to you soon.`);
+    setFormData({ name: '', email: '', message: '' });
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value
+    }));
+  };
+
+  const handleSocialClick = (platform: string) => {
+    alert(`Opening ${platform}...`);
+  };
   const menuItems = [
     {
       name: "Artisan Espresso",
