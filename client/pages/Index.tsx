@@ -224,11 +224,25 @@ export default function Index() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {menuItems.map((item, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-[1.02]">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden bg-muted flex items-center justify-center">
                   <img
                     src={item.image}
                     alt={item.name}
                     className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      target.parentElement!.innerHTML = `
+                        <div class="flex items-center justify-center w-full h-full bg-muted text-muted-foreground">
+                          <div class="text-center">
+                            <svg class="h-12 w-12 mx-auto mb-2" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd" />
+                            </svg>
+                            <p class="text-sm">${item.name}</p>
+                          </div>
+                        </div>`;
+                    }}
+                    loading="lazy"
                   />
                 </div>
                 <CardContent className="p-6">
