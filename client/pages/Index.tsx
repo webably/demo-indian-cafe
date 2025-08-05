@@ -49,27 +49,27 @@ export default function Index() {
       price: "₹80",
       description: "Rich, concentrated coffee shot with perfect crema, made from premium Arabica beans",
       badge: "Signature",
-      image: "https://images.pexels.com/photos/33280307/pexels-photo-33280307.jpeg"
+      image: "https://images.pexels.com/photos/10303534/pexels-photo-10303534.jpeg"
     },
     {
       name: "Cappuccino",
       price: "₹120",
       description: "Perfect blend of espresso, steamed milk, and velvety foam with beautiful latte art",
       badge: "Popular",
-      image: "https://images.pexels.com/photos/5151354/pexels-photo-5151354.jpeg"
+      image: "https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg"
     },
     {
       name: "Caffe Latte",
       price: "₹110",
       description: "Smooth espresso with steamed milk, topped with artistic foam designs",
       badge: "Barista's Choice",
-      image: "https://images.pexels.com/photos/544113/pexels-photo-544113.jpeg"
+      image: "https://images.pexels.com/photos/5151354/pexels-photo-5151354.jpeg"
     },
     {
       name: "Earl Grey Tea",
       price: "₹70",
       description: "Premium black tea infused with bergamot oil, served with honey and lemon",
-      image: "https://images.pexels.com/photos/14820984/pexels-photo-14820984.jpeg"
+      image: "https://images.pexels.com/photos/2168346/pexels-photo-2168346.png"
     },
     {
       name: "Matcha Green Tea",
@@ -83,14 +83,14 @@ export default function Index() {
       price: "₹130",
       description: "Smooth, refreshing cold-brewed coffee served over ice with optional cream",
       badge: "Refreshing",
-      image: "https://images.pexels.com/photos/28944485/pexels-photo-28944485.jpeg"
+      image: "https://images.pexels.com/photos/5741238/pexels-photo-5741238.jpeg"
     },
     {
       name: "Cafe Mocha",
       price: "₹140",
       description: "Decadent blend of espresso, chocolate, and steamed milk topped with whipped cream",
       badge: "Indulgent",
-      image: "https://images.pexels.com/photos/17558645/pexels-photo-17558645.jpeg"
+      image: "https://images.pexels.com/photos/17558644/pexels-photo-17558644.jpeg"
     },
     {
       name: "Spiced Chai Latte",
@@ -103,7 +103,7 @@ export default function Index() {
       name: "Americano",
       price: "₹85",
       description: "Pure espresso shots diluted with hot water for a clean, bold coffee flavor",
-      image: "https://images.pexels.com/photos/32103303/pexels-photo-32103303.jpeg"
+      image: "https://images.pexels.com/photos/4541324/pexels-photo-4541324.jpeg"
     }
   ];
 
