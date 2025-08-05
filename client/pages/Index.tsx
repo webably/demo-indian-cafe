@@ -331,10 +331,10 @@ export default function Index() {
                 one cup at a time.
               </p>
               <div className="flex gap-4">
-                <Button size="sm" variant="outline" className="border-background/20 text-background hover:bg-background hover:text-foreground">
+                <Button onClick={() => handleSocialClick('Instagram')} size="sm" variant="outline" className="border-background/20 text-background hover:bg-background hover:text-foreground">
                   Instagram
                 </Button>
-                <Button size="sm" variant="outline" className="border-background/20 text-background hover:bg-background hover:text-foreground">
+                <Button onClick={() => handleSocialClick('Facebook')} size="sm" variant="outline" className="border-background/20 text-background hover:bg-background hover:text-foreground">
                   Facebook
                 </Button>
               </div>
