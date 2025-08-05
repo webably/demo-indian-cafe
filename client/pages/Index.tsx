@@ -216,7 +216,7 @@ export default function Index() {
           </div>
           
           <div className="text-center mt-12">
-            <Button size="lg" variant="outline">
+            <Button onClick={() => alert('🍽️ Full menu coming soon! Call us at (555) 123-BREW for complete offerings.')} size="lg" variant="outline">
               View Full Menu
             </Button>
           </div>
