@@ -114,10 +114,10 @@ export default function Index() {
             locally sourced ingredients and passionate craftsmanship in every cup and bite.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8 py-3">
+            <Button onClick={() => scrollToSection('menu')} size="lg" className="text-lg px-8 py-3">
               Explore Menu
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-3">
+            <Button onClick={() => scrollToSection('contact')} size="lg" variant="outline" className="text-lg px-8 py-3">
               Visit Us Today
             </Button>
           </div>
