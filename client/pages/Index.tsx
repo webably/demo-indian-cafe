@@ -91,12 +91,12 @@ export default function Index() {
               <span className="font-bold text-xl text-foreground">Brew & Bloom</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="text-foreground hover:text-primary transition-colors">Home</a>
-              <a href="#about" className="text-foreground hover:text-primary transition-colors">About</a>
-              <a href="#menu" className="text-foreground hover:text-primary transition-colors">Menu</a>
-              <a href="#contact" className="text-foreground hover:text-primary transition-colors">Contact</a>
+              <button onClick={() => scrollToSection('home')} className="text-foreground hover:text-primary transition-colors">Home</button>
+              <button onClick={() => scrollToSection('about')} className="text-foreground hover:text-primary transition-colors">About</button>
+              <button onClick={() => scrollToSection('menu')} className="text-foreground hover:text-primary transition-colors">Menu</button>
+              <button onClick={() => scrollToSection('contact')} className="text-foreground hover:text-primary transition-colors">Contact</button>
             </div>
-            <Button className="hidden md:inline-flex">Order Online</Button>
+            <Button onClick={handleOrderOnline} className="hidden md:inline-flex">Order Online</Button>
           </div>
         </div>
       </nav>
