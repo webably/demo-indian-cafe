@@ -280,8 +280,8 @@ export default function Index() {
                 <div>
                   <h3 className="font-semibold text-lg text-foreground mb-2">Contact</h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>(555) 123-BREW</p>
-                    <p>hello@brewandbloom.cafe</p>
+                    <p>(555) 123-CHAI</p>
+                    <p>namaste@chaykafi.cafe</p>
                   </div>
                 </div>
               </div>
@@ -359,7 +359,7 @@ export default function Index() {
                 <p><button onClick={() => scrollToSection('menu')} className="hover:text-primary transition-colors">Menu</button></p>
                 <p><button onClick={() => scrollToSection('about')} className="hover:text-primary transition-colors">About Us</button></p>
                 <p><button onClick={() => scrollToSection('contact')} className="hover:text-primary transition-colors">Contact</button></p>
-                <p><button onClick={() => alert('📞 Call us at (555) 123-BREW for catering inquiries!')} className="hover:text-primary transition-colors">Catering</button></p>
+                <p><button onClick={() => alert('📞 Call us at (555) 123-CHAI for catering and special event inquiries!')} className="hover:text-primary transition-colors">Catering</button></p>
               </div>
             </div>
             
@@ -368,8 +368,8 @@ export default function Index() {
               <div className="space-y-2 text-background/80">
                 <p>123 Coffee Street</p>
                 <p>New York, NY 10001</p>
-                <p>(555) 123-BREW</p>
-                <p>hello@brewandbloom.cafe</p>
+                <p>(555) 123-CHAI</p>
+                <p>namaste@chaykafi.cafe</p>
               </div>
             </div>
           </div>
